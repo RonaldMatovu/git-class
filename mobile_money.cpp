@@ -6,7 +6,7 @@ string ussd;
 string PIN;
 cin>>ussd;
 if(ussd=="*165#"){
-	cout<<"Hi, welcome to the MTN mobile money menu.\n please choose a service"<<endl;
+	cout<<"Hi, welcome to the ZEECOM mobile money menu.\n please choose a service"<<endl;
 	cout<<"1. send money"<<endl;
 	cout<<"2. check balance"<<endl;
 	cout<<"3. Buy airtime "<<endl;
@@ -14,7 +14,7 @@ if(ussd=="*165#"){
 	cout<<"5. payments"<<endl;
 	cout<<"6. Change language"<<endl;
 	cout<<"7. Remittances"<<endl;
-	cout<<"8. MTN Services"<<endl;
+	cout<<"8. ZEECOM Services"<<endl;
 	cout<<"9. Fee and Taxes"<<endl;
 	cout<<"10. Donations"<<endl;
 	cout<<"11. My Account"<<endl;
@@ -298,13 +298,13 @@ case 5:
 	break;
 	
 case 8:
-	cout<<"\t MTN Services \n";
-	cout<<"1. MTN bills \n";
-	cout<<"2. MTN Kampala Marathon";
+	cout<<"\t ZEECOM Services \n";
+	cout<<"1. ZEECOM bills \n";
+	cout<<"2. ZEECOM Kampala Marathon";
 	
-	int mtn_services;
-	cin>>mtn_services;
-	if(mtn_services==1){
+	int ZEECOM_services;
+	cin>>ZEECOM_services;
+	if(ZEECOM_services==1){
 		
 	}
 	
